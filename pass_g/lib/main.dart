@@ -165,7 +165,7 @@ class _PasswordGeneratorState extends State<PasswordGenerator> {
                   SizedBox(height: 20),
                   AnimatedOpacity(
                     opacity: _loading ? 0.0 : 1.0,
-                    duration: Duration(milliseconds: 200),
+                    duration: Duration(milliseconds: 180),
                     child: ElevatedButton(
                       onPressed: _generatePassword,
                       child: Text('Generate Password'),
